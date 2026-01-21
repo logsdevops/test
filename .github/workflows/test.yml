@@ -4,8 +4,7 @@ on: [push]
 
 jobs:
    say-hello-harish:
-   runs-on: ubuntu-latest
-
-   steps:
-    -name: Print Hello Harish
-     run: echo "Hello Harish"
+      runs-on: ubuntu-latest
+      steps:
+         - name: Print Hello Harish
+           run: echo "Hello Harish"
