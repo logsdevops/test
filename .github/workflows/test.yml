@@ -3,7 +3,7 @@ name: Hello Harish
 on: [push]
 
 jobs:
-   say-hello-harish
+   say-hello-harish:
    runs-on: ubuntu-latest
 
    steps:
